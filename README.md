@@ -9,3 +9,16 @@ java: java-8-openjdk
 ```
 git clone https://github.com/fivepercent/hadoop-standalone-docker
 ```
+* Pull from docker hub
+```
+docker pull zhuzhenle/hadoop-standalone
+```
+* Build image from dockerfile
+```
+cd hadoop-standalone/
+./build-image.sh
+```
+* Run container
+```
+./start-container.sh
+```
